@@ -21,5 +21,6 @@ node
   stage "7. view date and time and uptime"
   sh "date"
   sh "time"
-  free -m
+  sh "free -m"
+  sh "df -h"
 }
