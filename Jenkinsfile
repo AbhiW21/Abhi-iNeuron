@@ -22,5 +22,5 @@ node
   sh "date"
   sh "time"
   sh "free -m"
-  sh "du -sh"
+  sh "df -h"
 }
